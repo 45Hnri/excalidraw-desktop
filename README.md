@@ -5,8 +5,7 @@
 - command-line argument support
 - image and file export shortcuts
 
-![demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWtkZ3cxZHd2ZGRoNHFjdTB6enQ5YmZyeHNlOXA2ZTBrd2RmMjg5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5RHbF3hxA6HvqIYqdW/giphy.gif)
-
+![demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3IwdnZ1NnVjZXl5czdnbHluaWwzcjBobDF5eXBxMTNobXdpYmNmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9p2wRLSSm2KPqXgnD5/giphy.gif)
 
 > [!NOTE] 
 > This **prototype** mainly exists because the Excalidraw-PWA does not integrate as well in my neovim workflow.
