@@ -79,3 +79,8 @@ end, { noremap = true, silent = true })
 |           Key          | Functionality             |
 |:----------------------:|---------------------------|
 | VITE_TESTING_FILE_PATH | Argument for path of file |
+
+### PNPM Support
+
+For the time we are stuck with npm.
+["Why no pnpm, electron?" JS-dev asked calmly](https://github.com/electron/forge/issues/2633#issuecomment-2642437325)
