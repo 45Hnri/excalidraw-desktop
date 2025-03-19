@@ -1,6 +1,9 @@
 # releases
 release
 
+# envs
+.env
+
 # Logs
 logs
 *.log

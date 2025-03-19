@@ -20,13 +20,13 @@ excalidraw <PATH>
 
 ### Shortcuts
 
-| key   | action   |
-|:-----------:|--------|
-| W     | write file to path |
-| E     | write image to path |
-| A     | write image and file |
-| \<A-E\> | switch image type |
-| M     | toggle darkmode |
+|   key   | action               |
+|:-------:|----------------------|
+| \<A-w\> | write file to path   |
+| \<A-p\> | write image to path  |
+| \<A-a\> | write image and file |
+| \<A-P\> | switch image type    |
+| \<A-m\> | toggle darkmode      |
 
 ---
 
@@ -69,3 +69,13 @@ vim.keymap.set("n", "<leader>xp", function()
     vim.cmd("norm o!"..filename.."svg)")
 end, { noremap = true, silent = true })
 ```
+
+---
+
+## Development
+
+### Environment Variables
+
+|           Key          | Functionality             |
+|:----------------------:|---------------------------|
+| VITE_TESTING_FILE_PATH | Argument for path of file |

@@ -58,7 +58,7 @@ ipcMain.on("get-command-line-args", (event) => {
   event.reply("command-line-args", vargs);
 });
 
-const filePath = vargs[0]||""
+const filePath = (import.meta.env.DEV ? import.meta.env.VITE_TESTING_FILE_PATH : "") || vargs[0] || ""
 
 ipcMain.handle('get-file-data', async () => {
     try {

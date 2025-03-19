@@ -134,11 +134,12 @@ function App() {
     }
     return (
         <div className="h-screen w-screen" onKeyDown={(e)=>{
-            if(!e.altKey && e.key === "E") handleExportFormat()
-            if(e.altKey && e.key === "E") setExportFormat(prev=>prev==="svg"?"png":"svg")
-            if(e.key === "W") handleExportJSON()
-            if(e.key === "A") handleExportFormat(),handleExportJSON()
-            if(e.key === "M") setTheme(prev=>prev==="dark"?"light":"dark")
+            if(!e.altKey) return
+            if(e.key === "p") handleExportFormat()
+            if(e.key === "P") setExportFormat(prev=>prev==="svg"?"png":"svg")
+            if(e.key === "w") handleExportJSON()
+            if(e.key === "a") handleExportFormat(),handleExportJSON()
+            if(e.key === "m") setTheme(prev=>prev==="dark"?"light":"dark")
         }}>
             <Excalidraw 
                 initialData={initialStatePromiseRef.current.promise}
