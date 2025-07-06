@@ -1,11 +1,11 @@
-# Excalidraw-Desktop
+<h1 align="center">Excalidraw-Desktop</h1>
 
-[Excalidraw](https://github.com/excalidraw/excalidraw) as a standalone binary:
+https://github.com/user-attachments/assets/f6829c74-c12f-4f78-8208-e0b5b57eb6dc
+
+**[Excalidraw](https://github.com/excalidraw/excalidraw) as a standalone binary:**
 - offline
 - command-line argument support
 - image and file export shortcuts
-
-![demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3IwdnZ1NnVjZXl5czdnbHluaWwzcjBobDF5eXBxMTNobXdpYmNmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9p2wRLSSm2KPqXgnD5/giphy.gif)
 
 > [!NOTE] 
 > This **prototype** mainly exists because the Excalidraw-PWA does not integrate as well in my neovim workflow.
