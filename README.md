@@ -43,7 +43,7 @@ chmod u+x ~/.local/bin/excalidraw
 ```
 
 > [!important] 
-> this requires you to have ~/.local/bin/excalidraw in your $PATH
+> this requires you to have `~/.local/bin/excalidraw` in your `$PATH`
 
 ---
 
@@ -84,3 +84,4 @@ end, { noremap = true, silent = true })
 
 For the time we are stuck with npm.
 ["Why no pnpm, electron?" JS-dev asked calmly](https://github.com/electron/forge/issues/2633#issuecomment-2642437325)
+
