@@ -83,6 +83,10 @@ desktop-file-install --dir=~/.local/share/applications ~/<FILE-LOCATION>/excalid
 update-desktop-database ~/.local/share/applications
 ```
 
+### Windows
+
+Just kidding.
+
 ---
 
 ## Integration
@@ -122,5 +126,6 @@ end, { noremap = true, silent = true })
 
 For the time we are stuck with npm.
 ["Why no pnpm, electron?" JS-dev asked calmly](https://github.com/electron/forge/issues/2633#issuecomment-2642437325)
+
 
 
